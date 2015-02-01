@@ -1,3 +1,5 @@
+""" Synthesizes a blues solo algorithmically """
+
 from Nsound import *
 import numpy as np
 from numpy.random import choice, rand, random_sample
