@@ -1,27 +1,29 @@
-class DNASequence(object):
+class DNASequence:
     """ Represents a sequence of DNA """
     def __init__(self, nucleotides):
         """ constructs a DNASequence with the specified nucleotides.
              nucleotides: the nucleotides represented as a string of
-                          capital letters in {'A','C','G','T'} """
+                          capital letters consisting of A's, C's, G's, and T's """
         pass
-        
-    def get_reverse_complement(self):
-        """ Computes the reverse complement of the DNA sequence.
-            returns: the reverse complement DNA sequence represented
-                     as an object of type DNASequence
-
-            >>> seq = DNASequence("ATGC")
-            >>> print seq.get_reverse_complement()
-            GCAT
-        """
-        pass
-
+ 
     def __str__(self):
         """ Returns a string containing the nucleotides in the DNASequence
         >>> seq = DNASequence("TTTGCC")
         >>> print seq
         TTTGCC
+        """
+        pass
+
+    def get_reverse_complement(self):
+        """ Returns the reverse complement DNA sequence represented
+            as an object of type DNASequence
+
+            >>> seq = DNASequence("ATGC")
+            >>> rev = seq.get_reverse_complement()
+            >>> print rev
+            GCAT
+            >>> print type(rev)
+            <class '__main__.DNASequence'>
         """
         pass
 
