@@ -1,4 +1,4 @@
-class DNASequence:
+class DNASequence(object):
     """ Represents a sequence of DNA """
     def __init__(self, nucleotides):
         """ constructs a DNASequence with the specified nucleotides.
