@@ -72,51 +72,44 @@
 
 	A. What data structure are each of the following?
 	
-		1. `a = {"duck" : 1, "dog" : 5, "goose" : 3}`
-		
-		1. `b = ("duck", 2)`
-		
-		1. `c =  ["duck", "dog", "goose"]`
+		```python
+		a = {"duck" : 1, "dog" : 5, "goose" : 3}
+		b = ("duck", 2)
+		c =  ["duck", "dog", "goose"]
+		```
 	
 	B. Determine the output of the code snippet. Assume the that a, b, and c are all as above at the start of each question. If it would cause an error, write "ERROR" and what data structure you could use to make it run correctly.
 	
-		1. 
-			```python
+		i. ```python
 			a[1] = "duck"
 			print a
 			```
 			
-		1. 
-			```python
+		ii. ```python
 			b[1] = "duck"
 			print b
 			```
 			
-		1. 
-			```python
+		iii. ```python
 			c[1] = "duck"
 			print c
 			```
 			
-		1. 
-			```python
+		iv. ```python
 			a["duck"] = "turtle"
 			print a["duck"] + "duck"
 			```
 			
-		1. 
-			```python
+		iv. ```python
 			print b[a["duck"]]
 			```
 			
-		1. 
-			```python
+		v. ```python
 			b.append("cat")
 			print b
 			```
 			
-		1.
-			```python
+		vi. ```python
 			c.append("cat")
 			print c
 			```
@@ -125,9 +118,9 @@
 
 	A. Read in the file duck_colors.txt. It consists of random colors, with each color separated by a comma and then a space. 
 	
-	A. Use this data to create a dictionary where the keys are the colors and the values are the number of times the color occured.
+	B. Use this data to create a dictionary where the keys are the colors and the values are the number of times the color occured.
 	
-	A. Write this data to a file called counted_colors.txt in the format: 
+	C. Write this data to a file called counted_colors.txt in the format: 
 		
 		`color, occurrences`
 		
