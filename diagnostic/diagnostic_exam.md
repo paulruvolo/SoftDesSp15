@@ -80,39 +80,35 @@
 	
 	B. Determine the output of the code snippet. Assume the that a, b, and c are all as above at the start of each question. If it would cause an error, write "ERROR" and what data structure you could use to make it run correctly.
 	
-		i. ```
-			a[1] = "duck"
-			print a
-			```
+	```
+	i.  
+		a[1] = "duck"
+		print a
 			
-		ii. ```
-			b[1] = "duck"
-			print b
-			```
+	ii. 
+		b[1] = "duck"
+		print b
 			
-		iii. ```
-			c[1] = "duck"
-			print c
-			```
+	iii. 
+		c[1] = "duck"
+		print c
+		
 			
-		iv. ```
-			a["duck"] = "turtle"
-			print a["duck"] + "duck"
-			```
+	iv.
+		a["duck"] = "turtle"
+		print a["duck"] + "duck"
 			
-		iv. ```
-			print b[a["duck"]]
-			```
+	iv. 
+		print b[a["duck"]]
 			
-		v. ```
-			b.append("cat")
-			print b
-			```
+	v.
+		b.append("cat")
+		print b
 			
-		vi. ```
-			c.append("cat")
-			print c
-			```
+	vi.
+		c.append("cat")
+		print c
+	```
 
 1. **File operations and dictionaries**
 
