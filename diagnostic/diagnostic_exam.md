@@ -1,5 +1,9 @@
 ## Software Design Mid-Semester Diagnostic Self-Exam
 
+These are a list of simple exercises focused on the basic topics we have covered so far this semester. If you have trouble with any of these tasks, you should go back and revisit the corresponding Think Python chapter. If it's still unclear after that, talk with a member of the teaching staff.
+
+Thanks to Sophie and Heather for putting these exercises together.
+
 
 1. **`print` vs `return`**
 
