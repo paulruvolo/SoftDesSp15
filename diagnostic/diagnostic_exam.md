@@ -68,4 +68,79 @@
     - What is the difference between a for loop and a while loop? 
     - In what situation should you use each?
     
-    
+1. **Lists, dictionaries, and tuples**
+
+	A. What data structure are each of the following?
+		1. `a = {"duck" : 1, "dog" : 5, "goose" : 3}`
+		1. `b = ("duck", 2)`
+		1. `c =  ["duck", "dog", "goose"]`
+	
+	B. Determine the output of the code snippet. Assume the that a, b, and c are all as above at the start of each question. If it would cause an error, write "ERROR" and what data structure you could use to make it run correctly.
+		1. 
+			```
+			a[1] = "duck"
+			print a
+			```
+		1. 
+			```
+			b[1] = "duck"
+			print b
+			```
+		1. 
+			```
+			c[1] = "duck"
+			print c
+			```
+		1. 
+			```
+			a["duck"] = "turtle"
+			print a["duck"] + "duck"
+			```
+		1. 
+			```
+			print b[a["duck"]]
+			```
+		1. 
+			```
+			b.append("cat")
+			print b
+			```
+		1.
+			```
+			c.append("cat")
+			print c
+			```
+
+1. ** File operations and dictionaries**
+
+	A. Read in the file duck_colors.txt. It consists of random colors, with each color separated by a comma and then a space. 
+	A. Use this data to create a dictionary where the keys are the colors and the values are the number of times the color occured.
+	A. Write this data to a file called counted_colors.txt in the format: 
+		
+		`color, occurrences`
+		
+		For example:
+		
+		```
+		green, 4
+		purple, 91
+		red, 18
+		```
+
+1. **Classes - attributes, methods, and inheritance**
+
+	Fill in water_animal.py according to the comments.
+
+1. **Coding style and etiquette**
+
+	Rewrite bad_code.py to be more readable, extendable, concise, and efficient. 
+	
+	Try skimming through the [Python Style Guide](http://docs.python-guide.org/en/latest/writing/style/) and/or [PEP8](https://www.python.org/dev/peps/pep-0008/). These are both reasonably long, just read the sections that look interesting or relevant. Talk to a NINJA if you have questions.
+
+
+
+
+
+
+
+
