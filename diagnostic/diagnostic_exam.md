@@ -112,7 +112,7 @@
 
 1. **File operations and dictionaries**
 
-	A. Read in the file duck_colors.txt. It consists of random colors, with each color separated by a comma and then a space. 
+	A. Read in the file [duck_colors.txt](duck_colors.txt). It consists of random colors, with each color separated by a comma and then a space. 
 	
 	B. Use this data to create a dictionary where the keys are the colors and the values are the number of times the color occured.
 	
@@ -130,11 +130,11 @@
 
 1. **Classes - attributes, methods, and inheritance**
 
-	Fill in water_animal.py according to the comments.
+	Fill in [water_animal.py](water_animal.py) according to the comments.
 
 1. **Coding style and etiquette**
 
-	Rewrite bad_code.py to be more readable, extendable, concise, and efficient. 
+	Rewrite [bad_code.py](bad_code.py) to be more readable, extendable, concise, and efficient. 
 	
 	Try skimming through the [Python Style Guide](http://docs.python-guide.org/en/latest/writing/style/) and/or [PEP8](https://www.python.org/dev/peps/pep-0008/). These are both reasonably long, just read the sections that look interesting or relevant. Talk to a NINJA if you have questions.
 
