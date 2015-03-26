@@ -8,7 +8,7 @@
 	- Print the input
 	- Return the input multiplied by 4
 
-	```
+	```python
 	def print_and_return(input):
 		print "I'm a string!"
 		return None
@@ -27,7 +27,7 @@
 	- Print "Big input!" if either number is greater than 10
 	- If an input is not a number, return `False`
 	
-	```
+	```python
 	def conditional_statements(number1, number2):
 		pass
 	```
@@ -43,7 +43,7 @@
 	- Print the first 3 values of the list
 	- Return the last value of the list
 	
-	```
+	```python
 	def list_operations(input):
     	test_list = [20,1,3,24,6,9]
 		return None
@@ -60,7 +60,7 @@
 	- Create a for loop that will print every value in the input. Do not use `range(len(input))`
 	- Return a value randomly chosen from the input
 	
-	```
+	```python
 	def for_vs_while_loops(input):
 	    pass
 	```
@@ -77,36 +77,36 @@
 	
 	B. Determine the output of the code snippet. Assume the that a, b, and c are all as above at the start of each question. If it would cause an error, write "ERROR" and what data structure you could use to make it run correctly.
 		1. 
-			```
+			```python
 			a[1] = "duck"
 			print a
 			```
 		1. 
-			```
+			```python
 			b[1] = "duck"
 			print b
 			```
 		1. 
-			```
+			```python
 			c[1] = "duck"
 			print c
 			```
 		1. 
-			```
+			```python
 			a["duck"] = "turtle"
 			print a["duck"] + "duck"
 			```
 		1. 
-			```
+			```python
 			print b[a["duck"]]
 			```
 		1. 
-			```
+			```python
 			b.append("cat")
 			print b
 			```
 		1.
-			```
+			```python
 			c.append("cat")
 			print c
 			```
