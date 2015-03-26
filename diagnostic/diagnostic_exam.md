@@ -72,44 +72,44 @@
 
 	A. What data structure are each of the following?
 	
-		```python
-		a = {"duck" : 1, "dog" : 5, "goose" : 3}
-		b = ("duck", 2)
-		c =  ["duck", "dog", "goose"]
-		```
+	```python
+	a = {"duck" : 1, "dog" : 5, "goose" : 3}
+	b = ("duck", 2)
+	c =  ["duck", "dog", "goose"]
+	```
 	
 	B. Determine the output of the code snippet. Assume the that a, b, and c are all as above at the start of each question. If it would cause an error, write "ERROR" and what data structure you could use to make it run correctly.
 	
-		i. ```python
+		i. ```
 			a[1] = "duck"
 			print a
 			```
 			
-		ii. ```python
+		ii. ```
 			b[1] = "duck"
 			print b
 			```
 			
-		iii. ```python
+		iii. ```
 			c[1] = "duck"
 			print c
 			```
 			
-		iv. ```python
+		iv. ```
 			a["duck"] = "turtle"
 			print a["duck"] + "duck"
 			```
 			
-		iv. ```python
+		iv. ```
 			print b[a["duck"]]
 			```
 			
-		v. ```python
+		v. ```
 			b.append("cat")
 			print b
 			```
 			
-		vi. ```python
+		vi. ```
 			c.append("cat")
 			print c
 			```
