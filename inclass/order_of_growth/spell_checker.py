@@ -136,7 +136,7 @@ if __name__ == '__main__':
         trials = np.zeros((n_trials,len(skip_factors)))
         for n in range(n_trials):
             for i,skip in enumerate(skip_factors):
-                trials[n,i-1] = spell_check(skip, num_words_to_check)
+                trials[n,i] = spell_check(skip, num_words_to_check)
         pyplot.plot([float(total_words)/skip for skip in skip_factors],trials.mean(axis=0).T)
         ymin, ymax = pyplot.ylim()
         pyplot.ylim(0,ymax)
