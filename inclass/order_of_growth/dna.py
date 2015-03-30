@@ -35,8 +35,8 @@ def reverse_complement_1(dna):
     'TGAACGCGG'
     """
     return_val = ""
-    for c in reversed(dna):
-        return_val += get_complement(c)
+    for c in dna:
+        return_val = get_complement(c) + return_val 
     return return_val
 
 def reverse_complement_2(dna):
@@ -56,16 +56,17 @@ def reverse_complement_2(dna):
     return "".join(return_val)
 
 if __name__ == '__main__':
+    dna_length = 100
     import doctest
     doctest.testmod()
-    dna = generate_random_dna(5000)
+    dna = generate_random_dna(dna_length)
     start_time = time.time()
     rev_complement = reverse_complement_1(dna)
     stop_time = time.time()
 
     print stop_time - start_time
 
-    dna = generate_random_dna(50000)
+    dna = generate_random_dna(dna_length)
     start_time = time.time()
     rev_complement = reverse_complement_2(dna)
     stop_time = time.time()
