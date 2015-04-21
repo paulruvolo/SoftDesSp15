@@ -1,4 +1,4 @@
-""" Experimenting again with Social Networks """
+""" Experimenting (again) with Social Networks.  Gonna strike it rich! """
 
 import sys
 import pickle
@@ -104,13 +104,13 @@ if __name__ == '__main__':
 
     if len(sys.argv) > 1:
         pickle_filename = sys.argv[1]
+
     if len(sys.argv) > 2:
         overwrite_pickle = sys.argv[2] == "True"
 
     if pickle_filename and not(overwrite_pickle):
         model = load_model(pickle_filename)
-
-    if overwrite_pickle or not(pickle_filename):
+    else:
         model = SocialNetworkModel()
         paul = User("Paul", "Ruvolo", "Professor", "Policy Iteration")
         ben = User("Ben", "Hill", "Professor", "A-star")
