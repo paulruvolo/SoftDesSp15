@@ -26,7 +26,7 @@ class SocialNetworkModel(object):
         user.posts.append(Post(text))
 
     def lookup_user(self, first_name, last_name):
-        """ Return the user with the specified firt and last first
+        """ Return the user with the specified first and last name
             or None if no such user exists """
         for u in self.users:
             if (u.first_name == first_name and
